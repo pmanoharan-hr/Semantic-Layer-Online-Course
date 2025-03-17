@@ -2,11 +2,11 @@ version: 2
 
 sources:
   - name: jaffle_shop
-    database: raw
-    schema: new_jaffle_shop
+    database: datalayer_test
+    schema: default
     tables:
-      - name: customers
-      - name: orders
-      - name: items
-      - name: products
-      - name: supplies 
+      - name: jaffle_shop_customers
+      - name: jaffle_shop_orders
+      - name: jaffle_shop_items
+      - name: jaffle_shop_customers
+      - name: jaffle_shop_supplies 
